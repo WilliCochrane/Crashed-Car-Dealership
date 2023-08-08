@@ -20,6 +20,7 @@ body {
     font-size: 15px 0;
     padding: 15px 0;
     color: #F6F6F6;
+    text-decoration: none;
   }
 
   .header-logo {
@@ -35,13 +36,14 @@ body {
     padding: 15px 0;
     font-size: 15px;
     color: #383B44;
+    border-radius: 2px;
   }
 
 .item-grid-container {
     margin-left: 15%;
     width: 70%;
     display: grid;
-    gap: 3px;
+    gap: 2px;
     background-color: #ffffff;
     padding: 20px 0;
     grid-template-columns: auto auto auto auto auto auto;
