@@ -50,6 +50,7 @@ body {
   .item-basic-info-container {
     grid-template-columns: 2fr 1fr;
     background-color: #D3D5D4;
+    border-radius: 3px 0 0 3px;
   }
 
   .basic-info{
@@ -99,4 +100,8 @@ body {
 
   #rightmost {
     border-right: 3px solid #D3D5D4;
+  }
+
+  #right {
+    border-radius: 0 3px 3px 0;
   }
