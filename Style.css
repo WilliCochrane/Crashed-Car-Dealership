@@ -82,8 +82,11 @@ body {
     text-align: center;
     margin: 3px 0;
     grid-row: 2 / 5;
-    padding: 80px 0;
     border-left: 3px solid #D3D5D4;
+    width: 30/7%;
+    height: 177px;
+    overflow: hidden;
+
   }
 
   .spec {
@@ -96,6 +99,10 @@ body {
     background-color: #dce3e4;
     margin: 3px 0;
     padding: 20px 0;
+  }
+
+  img {
+    width: 100%;
   }
 
   #rightmost {
