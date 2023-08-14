@@ -5,9 +5,9 @@ body {
 
 .header-container {
     display: grid;
-    grid-template-columns: 3fr 15fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: 300px auto 100px 100px 100px 100px 100px 100px;
     background-color: #383B44;
-    width: 99.6%;
+    width: 100%;
     position: fixed;
     gap: .2%;
     padding: .1%;
@@ -18,7 +18,7 @@ body {
   .header-page {
     text-align: center;
     font-size: 15px 0;
-    padding: 15px 0;
+    padding: 20px 30px;
     color: #F6F6F6;
     text-decoration: none;
   }
@@ -26,22 +26,34 @@ body {
   .header-logo {
     text-align: center;
     font-size: 15px 0;
-    padding: 15px 0;
+    padding: 20px 30px;
     color: #ec780b;
   }
 
   .header-page:hover {
     background-color: #F6F6F6;
     text-align: center;
-    padding: 15px 0;
-    font-size: 15px;
+    padding: 20px 30px;
+    font-size: 15px 0;
     color: #383B44;
     border-radius: 2px;
+  }
+
+  .filler {
+    width: 100%;
   }
 
   img {
     width: 100%;
     border-radius: 3px 3px 0 0;
+  }
+
+  .item-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    width: fit-content;
+    margin: auto;
   }
 
   .item-container {
@@ -50,10 +62,6 @@ body {
     width: 300px;
     border-radius: 3px;
     display: grid;
-  }
-
-  .item-container > div {
-    align-content: start;
   }
 
   .item-info-container {
@@ -70,7 +78,7 @@ body {
   }
 
   .item-info {
-    font-weight: bolder;
+    font-weight: bold;
   }
 
   .item-image {
