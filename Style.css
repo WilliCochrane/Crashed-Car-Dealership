@@ -6,7 +6,7 @@ body {
 .header-container {
     display: grid;
     grid-template-columns: 200px auto 100px 100px 100px 100px 100px 100px 50px;
-    background-color: #d58a21;
+    background-color: #d57f06;
     width: 100%;
     position: fixed;
     gap: .2%;
@@ -34,6 +34,10 @@ body {
   }
 
   .filler {
+    height: 80px;
+  }
+
+  #car-logo {
     height: 80px;
   }
 
@@ -112,4 +116,9 @@ body {
   .price-per-week {
     margin-left: 25px;
     margin-bottom: 25px;
+  }
+
+  h1 {
+    margin: auto;
+    font-size: 100px;
   }
