@@ -1,0 +1,102 @@
+body {
+  font-family: 'Franklin Gothic';
+  background-color: #F6F6F6;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 3fr 15fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    background-color: #383B44;
+    width: 99.6%;
+    position: fixed;
+    gap: .2%;
+    padding: .1%;
+    top: 0;
+    left: 0;
+  }
+
+  .header-page {
+    text-align: center;
+    font-size: 15px 0;
+    padding: 15px 0;
+    color: #F6F6F6;
+    text-decoration: none;
+  }
+
+  .header-logo {
+    text-align: center;
+    font-size: 15px 0;
+    padding: 15px 0;
+    color: #ec780b;
+  }
+
+  .header-page:hover {
+    background-color: #F6F6F6;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 15px;
+    color: #383B44;
+    border-radius: 2px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+  }
+
+  .item-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 3px;
+    display: grid;
+  }
+
+  .item-container > div {
+    align-content: start;
+  }
+
+  .item-info-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 200px;
+    gap: 4px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+  }
+
+  .item-spec {
+    font-weight: light;
+  }
+
+  .item-info {
+    font-weight: bolder;
+  }
+
+  .item-image {
+    margin-bottom: 10px;
+  }
+
+  .item-name {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  .item-price-container {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .item-price {
+    margin-left: 25px;
+    color: #ec780b;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+
+  .price-per-week {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
