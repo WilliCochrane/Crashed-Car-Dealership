@@ -10,7 +10,7 @@ body {
     width: 100%;
     position: fixed;
     gap: .2%;
-    padding: .1%;
+    padding: 3px;
     top: 0;
     left: 0;
   }
