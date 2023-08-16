@@ -1,13 +1,13 @@
 body {
-  font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'Franklin Gothic';
+  background-color: #F6F6F6;
 }
 
 .header-container {
     display: grid;
-    grid-template-columns: 3fr 15fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: 300px auto 100px 100px 100px 100px 100px 100px;
     background-color: #383B44;
-    width: 99.6%;
+    width: 100%;
     position: fixed;
     gap: .2%;
     padding: .1%;
@@ -18,7 +18,7 @@ body {
   .header-page {
     text-align: center;
     font-size: 15px 0;
-    padding: 15px 0;
+    padding: 20px 30px;
     color: #F6F6F6;
     text-decoration: none;
   }
@@ -26,89 +26,85 @@ body {
   .header-logo {
     text-align: center;
     font-size: 15px 0;
-    padding: 15px 0;
+    padding: 20px 30px;
     color: #ec780b;
   }
 
   .header-page:hover {
     background-color: #F6F6F6;
     text-align: center;
-    padding: 15px 0;
-    font-size: 15px;
+    padding: 20px 30px;
+    font-size: 15px 0;
     color: #383B44;
     border-radius: 2px;
   }
 
-.item-display-container {
-    margin-left: 15%;
-    width: 70%;
-    display: grid;
-    padding: 20px 0;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
-  }
-
-  .item-basic-info-container {
-    grid-template-columns: 2fr 1fr;
-    background-color: #D3D5D4;
-    border-radius: 3px 0 0 3px;
-  }
-
-  .basic-info{
-    background-color: #dce3e4;
-    padding: 20px 0;
-    font-size: 15px;
-    text-align: center;
-    margin: 3px 0;
-    border-left: 3px solid #D3D5D4;
-  }
-
-  .item-info-container {
-    grid-template-columns: 1fr;
-    background-color: #D3D5D4;
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .item-spec-container {
-    grid-template-columns: 1fr;
-    background-color: #dce3e4;
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .car-image {
-    background-color: #dce3e4;
-    font-size: 15px;
-    text-align: center;
-    margin: 3px 0;
-    grid-row: 2 / 5;
-    border-left: 3px solid #D3D5D4;
-    width: 30/7%;
-    height: 177px;
-    overflow: hidden;
-
-  }
-
-  .spec {
-    background-color: #D3D5D4;
-    margin: 3px 0;
-    padding: 20px 0;
-  }
-
-  .info {
-    background-color: #dce3e4;
-    margin: 3px 0;
-    padding: 20px 0;
+  .filler {
+    width: 100%;
   }
 
   img {
     width: 100%;
+    border-radius: 3px 3px 0 0;
   }
 
-  #rightmost {
-    border-right: 3px solid #D3D5D4;
+  .item-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    width: fit-content;
+    margin: auto;
   }
 
-  #right {
-    border-radius: 0 3px 3px 0;
+  .item-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 3px;
+    display: grid;
+  }
+
+  .item-info-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 200px;
+    gap: 4px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+  }
+
+  .item-spec {
+    font-weight: light;
+  }
+
+  .item-info {
+    font-weight: bold;
+  }
+
+  .item-image {
+    margin-bottom: 10px;
+  }
+
+  .item-name {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  .item-price-container {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .item-price {
+    margin-left: 25px;
+    color: #ec780b;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+
+  .price-per-week {
+    margin-left: 25px;
+    margin-bottom: 25px;
   }
