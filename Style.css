@@ -82,6 +82,33 @@ body {
     border-radius: 4px;
     display: grid;
     height: fit-content;
+    animation-name: item-not-hover;
+    animation-duration: 150ms;
+    transform: scale(1);
+  }
+
+  .item-container:hover {
+    animation-name: item-hover;
+    animation-duration: 150ms;
+    transform: scale(1.05);
+  }
+
+  @keyframes item-hover {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes item-not-hover {
+    from {
+      transform: scale(1.05);
+    }
+    to {
+      transform: scale(1);
+    }
   }
 
   .item-info-container {
