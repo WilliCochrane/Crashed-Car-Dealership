@@ -23,12 +23,11 @@ body {
     color: #F6F6F6;
     text-decoration: none;
     height: fit-content;
+    transition: background-color 200ms;
   }
 
   .header-page:hover {
     background-color: #F6F6F6;
-    text-align: center;
-    padding: 20px 30px;
     color: #383B44;
     border-radius: 2px;
   }
@@ -82,33 +81,11 @@ body {
     border-radius: 4px;
     display: grid;
     height: fit-content;
-    animation-name: item-not-hover;
-    animation-duration: 150ms;
-    transform: scale(1);
+    transition: transform 200ms;
   }
 
   .item-container:hover {
-    animation-name: item-hover;
-    animation-duration: 150ms;
-    transform: scale(1.05);
-  }
-
-  @keyframes item-hover {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.05);
-    }
-  }
-
-  @keyframes item-not-hover {
-    from {
-      transform: scale(1.05);
-    }
-    to {
-      transform: scale(1);
-    }
+    transform: scale(1.05)
   }
 
   .item-info-container {
