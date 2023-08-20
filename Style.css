@@ -69,11 +69,29 @@ body {
 
   .item-display {
     margin: auto;
-    width: 70%;
+    width: 1290px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: flex-start;
+  }
+
+  @media screen and (max-width: 1330px) {
+    .item-display {
+      width: 960px
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    .item-display {
+      width: 630px;
+    }
+  }
+
+  @media screen and (max-width: 670px){
+    .item-display {
+      width: 300px
+    }
   }
 
   .item-container {
