@@ -95,7 +95,7 @@ body {
   }
 
   .item-container {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
     background-color: #ffffff;
     width: 300px;
     border-radius: 4px;
@@ -118,6 +118,7 @@ body {
   }
 
   .item-spec {
+    color: rgb(136, 136, 136);
     font-weight: light;
     font-size: 20px 0;
   }
@@ -151,6 +152,12 @@ body {
   }
 
   .price-per-week {
+    margin-left: 25px;
+  }
+
+  .price-disclaimer {
+    color: rgb(136, 136, 136);
+    font-size: 12px;
     margin-left: 25px;
     margin-bottom: 25px;
   }
