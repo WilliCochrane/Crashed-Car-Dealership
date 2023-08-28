@@ -119,10 +119,12 @@ body {
 
   .item-spec {
     font-weight: light;
+    font-size: 20px 0;
   }
 
   .item-info {
     font-weight: bold;
+    font-size: 20px 0;
   }
 
   .item-image {
@@ -131,7 +133,7 @@ body {
 
   .item-name {
     margin-left: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: 25px;
     font-weight: lighter;
   }
