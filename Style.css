@@ -1,11 +1,11 @@
-body {
-  font-family: 'Franklin Gothic';
-  background-color: #F6F6F6;
-}
+  body {
+    font-family: 'Franklin Gothic';
+    background-color: #F6F6F6;
+  }
 
-.header-container {
+  .header-container {
     display: grid;
-    grid-template-columns: 200px auto 100px 100px 100px 100px 100px 100px 50px;
+    grid-template-columns: 200px auto 100px 100px 100px 100px 100px 50px;
     background-color: #db6f17;
     width: 100%;
     position: fixed;
@@ -160,4 +160,12 @@ body {
     font-size: 12px;
     margin-left: 25px;
     margin-bottom: 25px;
+  }
+
+  .footer {
+    margin-top: 100px;
+    text-align: center;
+    height: 40px;
+    color: #bdbcbc;
+    font-size: 15px;
   }
