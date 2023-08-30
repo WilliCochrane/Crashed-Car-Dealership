@@ -110,7 +110,7 @@
 
   .item-info-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
     width: 200px;
     gap: 4px;
     margin-bottom: 25px;
