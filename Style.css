@@ -63,7 +63,6 @@
     height: 80px;
     border-radius: 4px 4px 0 0;
     object-fit: contain;
-
   }
 
   #item-image {
@@ -92,11 +91,31 @@
     .item-display {
       width: 630px;
     }
+    .header-container {
+      grid-template-columns: 150px auto 75px 75px 75px 75px 75px 75px 37.5px;
+    }
+    .header-page {
+      padding: 15px 22.5px;
+      font-size: 10px;
+    }
+    #logo-image {
+      height: 60px;
+    }
   }
 
   @media screen and (max-width: 670px){
     .item-display {
       width: 300px
+    }
+    .header-container {
+      grid-template-columns: 100px auto 50px 50px 50px 50px 50px 50px 25px;
+    }
+    .header-page {
+      padding: 10px 15px;
+      font-size: 7.5px;
+    }
+    #logo-image {
+      height: 40px;
     }
   }
 
